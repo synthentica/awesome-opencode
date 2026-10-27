@@ -12,7 +12,7 @@ tags:
 homepage: https://lumora.video/docs/agents
 installation: |
   ```bash
-  opencode plugin add github:synthentica/lumora-plugins
+  opencode plugin add opencode-lumora
   opencode mcp auth lumora
   ```
-  On OpenCode 1.x, add `"plugin": ["github:synthentica/lumora-plugins"]` to `opencode.json`.
+  On OpenCode 1.x, add `"plugin": ["opencode-lumora"]` to `opencode.json`.
