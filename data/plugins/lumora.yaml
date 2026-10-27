@@ -1,0 +1,18 @@
+name: Lumora
+repo: https://github.com/synthentica/lumora-plugins
+tagline: Cinematic product demo videos from screen recordings, screenshots or a website
+description: Connects OpenCode to Lumora's hosted MCP server and adds a skill that directs the video. Point it at a screen recording, screenshots or a public website and it builds a short demo with 3D camera moves, callouts, captions, a title card and music, previews frames, and exports MP4, GIF or WebM with a share link.
+scope:
+  - global
+  - project
+tags:
+  - video
+  - mcp
+  - marketing
+homepage: https://lumora.video/docs/agents
+installation: |
+  ```bash
+  opencode plugin add github:synthentica/lumora-plugins
+  opencode mcp auth lumora
+  ```
+  On OpenCode 1.x, add `"plugin": ["github:synthentica/lumora-plugins"]` to `opencode.json`.
